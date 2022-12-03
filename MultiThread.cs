@@ -13,7 +13,6 @@ namespace ASP.NET_MVC_Core
             DateTime start = DateTime.Now;
 
             float[] arr = new float[100_000_000];
-
             var firstHalf = arr.Take(arr.Length / 2).ToArray();
             var secondHalf = arr.Take(arr.Length / 2).ToArray();
 
